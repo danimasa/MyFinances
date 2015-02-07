@@ -1,0 +1,23 @@
+{
+  "name": "MyFinances",
+  "version": "0.0.0",
+  "description": "Controle de finanças pessoal",
+  "keywords": [
+    "Finances"
+  ],
+  "authors": [
+    "daniel.masarin@gmail.com"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.4"
+  }
+}
