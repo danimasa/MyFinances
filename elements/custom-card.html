@@ -1,0 +1,18 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-shadow/paper-shadow.html">
+<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+<polymer-element name="custom-card" attributes="header" noscript>
+	<template>
+		<style>
+			.shadow-panel{
+				height: 100%;
+				width: 100%;
+				border-radius: 2px;
+			}
+		</style>
+		<paper-shadow z="2" class="shadow-panel">
+			
+			<h4>{{ header }}</h4>
+		</paper-shadow>
+	</template>
+</polymer-element>
